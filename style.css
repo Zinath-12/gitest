@@ -1,16 +1,21 @@
-<<<<<<< HEAD
+
 h1{
-    color: red;
+    color: gray;
+    text-align: center;
+
 }
-=======
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 30vh;
+    width: 100%vw;
+    background-color: gray;
+
 }
 nav a {
     text-decoration: none;
     color: black;
     
 }
->>>>>>> fc3582ed7494a8ae0f15eb703932d052e4b6e683
