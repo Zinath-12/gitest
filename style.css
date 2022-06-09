@@ -1,5 +1,11 @@
 
-
+.premier{
+    display: flex;
+    flex-direction: row;
+}
+.premier input{
+    
+}
 
 nav{
     display: flex;
@@ -34,5 +40,9 @@ body {
         form div > label {
         margin-bottom: 7px;
         font-weight: 600;
-        }
+
+    }
         
+input{
+    border-radius: 5px;
+}
