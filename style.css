@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6887273adf903d2ac389129ce82a9208374cfe1e
 h1{
     color: gray;
     text-align: center;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6887273adf903d2ac389129ce82a9208374cfe1e
 nav{
     display: flex;
     flex-direction: row;
@@ -18,4 +25,8 @@ nav a {
     text-decoration: none;
     color: black;
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6887273adf903d2ac389129ce82a9208374cfe1e
