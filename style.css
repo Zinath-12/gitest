@@ -2,26 +2,9 @@
 .premier{
     display: flex;
     flex-direction: row;
-}
-.premier input{
     
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    height: 30vh;
-    width: 100%vw;
-    background-color: gray;
-
-}
-nav a {
-    text-decoration: none;
-    color: black;
-    
-}
 body {
     background: #FFD9D9;
     font-family: Montserrat, "sans-serif";
@@ -40,9 +23,19 @@ body {
         form div > label {
         margin-bottom: 7px;
         font-weight: 600;
+        font-weight: bold;
+        color: #303030;
 
     }
         
 input{
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #303030;
+    border-radius: 8px;
+    height: 50px;
+    width: 80px;
+    font-weight: bold;
 }
