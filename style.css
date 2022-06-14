@@ -54,3 +54,21 @@ p {
     width: 150px;
     padding: 10px;
     }
+
+    
+.carre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.carre:hover{
+    background-color: #f00;
+}
+
+.body p:first-child{
+    color: red;
+}
+ul li:first-child{
+    color: blue;
+}
