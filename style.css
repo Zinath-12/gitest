@@ -57,13 +57,16 @@ p {
 
     
 .carre{
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     background-color: blue;
+    transition: 800ms ease-out 1s;
 }
 
 .carre:hover{
-    background-color: #f00;
+   width: 200px;
+   background-color: royalblue;
+   border-radius: 10px;
 }
 
 .body p:first-child{
@@ -71,4 +74,10 @@ p {
 }
 ul li:first-child{
     color: blue;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+h1{
+
+    font-family: 'Fascinate', cursive;
 }
