@@ -1,4 +1,9 @@
-body{
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* body{
     background-color: rgb(230, 209, 195);
 }
 
@@ -67,17 +72,94 @@ p {
    width: 200px;
    background-color: royalblue;
    border-radius: 10px;
+   
 }
 
-.body p:first-child{
+.body p:first-child{ 
     color: red;
 }
 ul li:first-child{
     color: blue;
+} */
+
+
+
+/* pour le blog */
+
+.banner {
+  
+    width: 100vw;
+    height: 355px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/gitest/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 
-h1{
+.banner h1 {
 
-    font-family: 'Fascinate', cursive;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+
+}
+
+.conteneur{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
+}
+.conteneur p{
+    text-align: justify;
+}
+
+.carre{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.carre:hover{
+    background-color: aqua;
+    width: 300px;
+    transition: all 1s ease-out;
+    border-radius: 10px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 32px;
+    background-image:url(/gitest/voiture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+
+nav{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 900;
 }
